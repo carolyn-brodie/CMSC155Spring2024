@@ -2,7 +2,7 @@ package week2;
 
 public class DoWhileExample {
     public static void main(String[] args) {
-        double number = 100;
+        double number = 1;
         int divisor = 3, count = 0;
         do
         {

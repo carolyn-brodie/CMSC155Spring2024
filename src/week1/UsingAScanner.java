@@ -6,7 +6,7 @@ public class UsingAScanner {
         Scanner input = new Scanner(System.in);
         System.out.print("Input an integer: ");
         int num = input.nextInt();
-        System.out.println("num squared = " + num * num);
+        System.out.println("num squared = " + num );
         input.close();
     }
 
