@@ -4,20 +4,22 @@ public class BankAccount {
 
     //instance variables
     private String owner;
-    private int accountNum;
+    private final int accountNum;
     private double balance;
 
     //constructor
-    public BankAccount(String name, int accountNum) {
+    public BankAccount(final String name, final int accountNum) {
         owner = name;
         this.accountNum = accountNum;
-        balance = 0;
+        this.balance = 0;
     }
 
 
 
     //Deposit Method
-
+    public void deposit(final double amount) {
+        balance += amount;
+    }
 
     //Withdrawal Method
 
@@ -27,10 +29,12 @@ public class BankAccount {
         return owner + " has account " + accountNum + " with balance $" + balance;
     }
 
-//    public static void main(String[] args) {
-//        BankAccount samAccount = new BankAccount("Sam Jones", 123);
-//        System.out.println(samAccount);
-//        //BankAccount joeAccount = new BankAccount("Joe", 345, 100);
-//        //System.out.println(joeAccount);
-//    }
+    public static void main(String[] args) {
+        BankAccount samAccount = new BankAccount("Sam Jones", 123);
+        System.out.println(samAccount);
+        samAccount.deposit(100);
+        System.out.println(samAccount);
+        //BankAccount joeAccount = new BankAccount("Joe", 345, 100);
+        //System.out.println(joeAccount);
+    }
 }
