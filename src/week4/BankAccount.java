@@ -1,7 +1,7 @@
 package week4;
 
 public class BankAccount {
-
+    private static int nextID = 100;
     //Attributes
     private String owner;
     private double balance;
@@ -12,6 +12,14 @@ public class BankAccount {
         this.owner = owner;
         balance = 0;
         this.account = account;
+
+    }
+
+    public BankAccount(String owner) {
+        this.owner = owner;
+        balance = 0;
+        this.account = nextID;
+        nextID++;
 
     }
 

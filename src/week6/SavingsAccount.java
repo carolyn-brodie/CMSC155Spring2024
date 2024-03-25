@@ -9,6 +9,16 @@ public class SavingsAccount extends BankAccount{
         super(owner);
         interestRate = interest;
     }
+    public void something() {
+        System.out.println("something");
+
+    }
+    @Override
+    public String toString() {
+        String out = super.toString();
+        out +=  "with interest rate " + interestRate;
+        return out;
+    }
 
 
 }

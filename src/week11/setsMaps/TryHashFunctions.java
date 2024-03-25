@@ -4,9 +4,10 @@ public class TryHashFunctions {
 
     public static int simpleHashCode(String str) {
         int h = 0;
-        for (int i = 0; i < str.length(); i++) {
-            h += str.charAt(i);
-        }
+        h = str.charAt(0);
+//        for (int i = 0; i < str.length(); i++) {
+//            h += str.charAt(i);
+//        }
         return h;
     }
 
