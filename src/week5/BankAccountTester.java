@@ -7,6 +7,7 @@ public class BankAccountTester {
         BankAccount sam2Account = samAccount.copy();
         BankAccount sam3Account = new BankAccount("Sam", 111, 30);
         BankAccount sam4Account = samAccount;
+        System.out.println(samAccount.hashCode());
 
 //        System.out.println(samAccount.equals(sam2Account));
 //        System.out.println(samAccount.equals(sam3Account));

@@ -44,10 +44,10 @@ public class BankAccount {
     @Override
     public int hashCode() {
         final int HASH_MULTIPLIER = 13;
-        int hash = 1;
-        hash = hash * HASH_MULTIPLIER * owner.hashCode();
-        hash = hash * HASH_MULTIPLIER * Integer.hashCode(accountNum);
-        hash = hash * HASH_MULTIPLIER * Double.hashCode(balance);
+        int hash = 0;
+        hash = hash + HASH_MULTIPLIER * owner.hashCode();
+        hash = hash + HASH_MULTIPLIER * Integer.hashCode(accountNum);
+        hash = hash + HASH_MULTIPLIER * Double.hashCode(balance);
         return hash;
     }
 

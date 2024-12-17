@@ -7,6 +7,7 @@ class BankAccount implements Comparable<BankAccount>
 	   private static double withdrawalFee = 0.05;
 	   private double balance;
 	   private String owner;
+	   private int accountNum;
 
 	   public BankAccount(String owner)
 	   {
@@ -26,6 +27,8 @@ class BankAccount implements Comparable<BankAccount>
 		   else System.out.println(this.owner + " tried to withdraw " + amount +
 				   " but balance was insufficient: " + this.balance);
 	   }
+
+
 
 	   public int compareTo(BankAccount account)
 	   { // Compare accounts using their owner's name - simpler version.

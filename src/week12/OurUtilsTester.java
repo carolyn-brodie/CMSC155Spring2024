@@ -9,10 +9,10 @@ public class OurUtilsTester {
     public static void main(String[] args) {
         String[] array1 = {"hi", "bye", "sigh"};
         Double[] array2 = {3.4, 5.9, 8.0, 1.3};
-        OurUtils.printStrings (array1);
-//        OurUtils.print(array1);
+//        OurUtils.printStrings (array1);
+        OurUtils.print(array1);
 //
-//      OurUtils.print(array2);
+      OurUtils.print(array2);
 //
 
 //

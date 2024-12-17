@@ -1,10 +1,10 @@
 ----------------------------------------------------------------
-Fri Jan 05 14:34:59 CST 2024:
-Booting Derby version The Apache Software Foundation - Apache Derby - 10.16.1.1 - (1901046): instance a816c00e-018c-db56-0d45-00000f2a78d8 
-on database directory C:\Users\carolyn.brodie\IdeaProjects\CMSC155Spring2024\Userscarolyn.brodieDropboxMyClassesCMSC155Spring2023AdatabaseBigJavaDB with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@4d7e1886 
-Loaded from file:/C:/Users/carolyn.brodie/Dropbox/MyClasses/CMSC155Spring2024/DerbyDownload/db-derby-10.16.1.1-bin/lib/derby.jar
+Sun Apr 14 20:40:05 CDT 2024:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.16.1.1 - (1901046): instance a816c00e-018e-df69-52f8-00000f2ab070 
+on database directory C:\Users\carolyn.brodie\IdeaProjects\CMSC155Spring2024\Userscarolyn.brodieDropboxMyClassesCMSC155Spring2023AdatabaseBigJavaDB with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@1d44bcfa 
+Loaded from file:/C:/Users/carolyn.brodie/Dropbox/MyClasses/CMSC155Spring2024/DerbyDownload/db-derby-10.16.1.1-lib/lib/derby.jar
 java.vendor=Oracle Corporation
-java.runtime.version=19.0.1+10-21
+java.runtime.version=17.0.1+12-39
 user.dir=C:\Users\carolyn.brodie\IdeaProjects\CMSC155Spring2024
 os.name=Windows 10
 os.arch=amd64

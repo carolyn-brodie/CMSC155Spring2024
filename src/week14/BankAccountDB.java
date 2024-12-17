@@ -35,6 +35,7 @@ public class BankAccountDB {
 	}
 
 	private void getNextAcct() {
+		//find the biggest account number currently used
 		String query = "SELECT MAX(Account_num) as Largest FROM Accounts";
 		System.out.println(query);
 		try {
@@ -94,11 +95,12 @@ public class BankAccountDB {
 
 	
 	//withdrawal
-	public void withdraw(double amount)
+	public void withdraw(double amount) throws SQLException
 	{
 //		if (balance > amount)
 //			balance -= amount;
 
+		
 
 	}
 

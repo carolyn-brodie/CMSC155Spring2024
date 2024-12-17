@@ -1,6 +1,6 @@
 package week7.shapes;
 
-public class Triangle  {
+public class Triangle implements Shape  {
 
     //instance variables
     private double base;
@@ -14,6 +14,7 @@ public class Triangle  {
 
     //Class specific methods
     public double computeArea() {
+
         return .5 * base * height;
     }
 

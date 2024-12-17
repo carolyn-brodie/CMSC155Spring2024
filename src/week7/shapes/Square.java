@@ -1,6 +1,8 @@
 package week7.shapes;
 
-public class Square  {
+import java.awt.*;
+
+public class Square implements Shape {
 
     //instance variables
     private double side;
@@ -12,6 +14,7 @@ public class Square  {
 
     //class specific methods
     public double computeArea() {
+
         return side * side;
     }
 

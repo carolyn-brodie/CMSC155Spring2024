@@ -9,7 +9,7 @@ public class BankTester {
         joeAccount.deposit(100.10);
         System.out.println(joeAccount);
         System.out.println("Joe's balance is " + joeAccount.getBalance());
-//        joeAccount.withdraw(25);
-//        System.out.println(joeAccount);
+        joeAccount.withdraw(25);
+        System.out.println(joeAccount);
     }
 }

@@ -33,7 +33,7 @@ public class ReadFromFile {
         }
         in.close();
 
-        readNumber("numbers.txt");
+//        readNumber("numbers.txt");
     }
 
 }

@@ -1,6 +1,6 @@
 package week6;
 
-public class BankAccount {
+public class BankAccount implements Comparable<BankAccount>{
 
     private static int nextNum = 100;
     //attributes
@@ -25,9 +25,29 @@ public class BankAccount {
         this(owner, nextNum++,0);
     }
 
+    public int compareTo(BankAccount other) {
+        if (this.balance == other.balance) {
+            if (this.owner.compareTo(other.owner) < 0) {
+                return -1;
+            } else if (this.owner.compareTo(other.owner) > 0) {
+                return 1;
+            } else {
+                return 0;
+            }
+        } else {
+            if (this.balance > other.balance) {
+                return -1;
+            } else if(this.balance < other.balance) {
+                return 1;
+            } else {
+                return 0;
+            }
+        }
+    }
 
     //other methods
     public void deposit(double amount) {
+
         balance += (amount);
     }
 

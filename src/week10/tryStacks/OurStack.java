@@ -14,11 +14,13 @@ public class OurStack {
     }
 
     public void push(String item) {
-
+         elements[size] = item;
+         size++;
     }
 
     public String pop() {
-        String top = "";
+        String top = elements[size-1];
+        size--;
         return top;
     }
 

@@ -19,7 +19,14 @@ public class BankAccount {
 
         this(name, accountNum, 0);
     }
+    public int hashCode() {
+        int HASH_MULTIPLIER = 13;
 
+        int h1 = owner.hashCode();
+        int h2 = Integer.valueOf(accountNum).hashCode();
+        int h = HASH_MULTIPLIER * h1 + h2;
+        return h;
+    }
 
     public BankAccount(String name, int accountNum, double balance) {
         owner = name;

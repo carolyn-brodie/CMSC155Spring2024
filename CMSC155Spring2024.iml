@@ -10,7 +10,7 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar://$USER_HOME$/Dropbox/MyClasses/CMSC155Spring2024/DerbyDownload/db-derby-10.16.1.1-bin/lib/derby.jar!/" />
+          <root url="jar://$USER_HOME$/Dropbox/MyClasses/CMSC155Spring2024/DerbyDownload/db-derby-10.16.1.1-lib/lib/derby.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -19,7 +19,7 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar://$USER_HOME$/Dropbox/MyClasses/CMSC155Spring2024/DerbyDownload/db-derby-10.16.1.1-bin/lib/derbyrun.jar!/" />
+          <root url="jar://$USER_HOME$/Dropbox/MyClasses/CMSC155Spring2024/DerbyDownload/db-derby-10.16.1.1-lib/lib/derbyrun.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />

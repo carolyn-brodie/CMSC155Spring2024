@@ -1,8 +1,10 @@
 package week9.OurLinkedList;
 
+import FinishedLinkedList.Node;
+
 public class OurLinkedList {
     //instance variable
-    private Node firstNode;
+    private FinishedLinkedList.Node firstNode;
 
 
     //Constructor
@@ -25,7 +27,7 @@ public class OurLinkedList {
 
     public int size() {
         int count = 0;
-        Node currentNode = firstNode;
+        FinishedLinkedList.Node currentNode = firstNode;
         while (currentNode != null) {
             count++;
             currentNode = currentNode.getLink();

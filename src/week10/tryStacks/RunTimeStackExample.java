@@ -18,6 +18,7 @@ public class RunTimeStackExample {
     { firstMethod(); }
 
     public static void main(String[] args) {
+
         firstMethod();
     }
 
